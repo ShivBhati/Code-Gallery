@@ -1,0 +1,12 @@
+{
+    "sql": "Select * from V3e_Attachment dd where dd.InvNumber = '{Cinvoice_number}' and dd.OrigAmt >= '{Camount}'",
+    "start_directory_nationwide": "B:\\Python\\Backup_Receipt\\Nationwide",
+    "start_directory_voucher": "B:\\Python\\Backup_Receipt\\Voucher",
+    "sql2": "Select * from IC_Accatachment where TransID1 = '{CVchrIndex}'",
+    "folderpath": "B:\\Python\\Backup_Receipt\\Billing Cycle",
+    "connection_string1": "mssql+pyodbc:///?odbc_connect=DRIVER={SQL Server};SERVER=SHIVAM_BHATI\\MSSQLSERVER01;DATABASE=Backup_Receipt;Trusted_Connection=yes;",
+    "connection_string2": "mssql+pyodbc:///?odbc_connect=DRIVER={SQL Server};SERVER=SHIVAM_BHATI\\MSSQLSERVER01;DATABASE=IC_Acctachment;Trusted_Connection=yes;",
+    "Cinvoice_number": null,
+    "Camount": null,
+    "CVchrIndex":null
+}
