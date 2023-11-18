@@ -18,12 +18,16 @@ Moving the invoice to the corresponding folder.
 Extracting costs/disbursements from the invoices.
 Searching for and collecting receipts related to the costs.
 Dropping the receipts into the same invoice folder.
+
 Functionality:
 The implemented code automates the extraction of invoice numbers, creation of folders, and the process of moving invoices to their respective folders. Furthermore, it extracts costs from the databases and locates receipts for the associated costs. The entire process is streamlined into a few clicks, reducing a two-week task to approximately 10% of the original effort.
 
 Benefits:
 
 Efficiency: The solution significantly reduces the time and effort required for the accounts payable team's tasks.
+
 Accuracy: Automation minimizes the likelihood of manual errors during the extraction and organization process.
+
 User-Friendly: With just a few clicks, the majority of the two-week task is completed, enhancing overall productivity.
+
 This solution aims to enhance the workflow of the Accounts Payable team, providing a more efficient and accurate approach to handling invoices and associated documentation in law firms.
