@@ -199,7 +199,7 @@ def process_attachments(db_conn1, db_conn2, invoice_number, amount, invoice_fold
     exlname = os.path.join(invoice_folder, "log_excel.xlsx")
     logexcel.to_excel(exlname)
     keywords = ['file_not_found', 'Split_Remaining', 'Unattached', 'Backup_Done']
-    print('the file is prepared')
+    
     for keyword in keywords:
         keymatches = logexcel['Status'].str.contains(keyword, case=False, na=False)
     if keymatches.any() == True:
